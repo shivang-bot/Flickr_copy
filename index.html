@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" crossorigin="anonymous">
+    <title>Document</title>
+    <script>
+      window.setInterval(function () {
+        document.getElementById("re").src =
+          "https://source.unsplash.com/user/0kronos5/likes/1080x720" +
+          new Date().getTime();
+      }, 5000);
+
+      
+    </script>
+  </head>
+  <body>
+    <div class="bg-img">
+      <img id="re" src="https://source.unsplash.com/user/0kronos5/likes/1080x720" alt="" style="width: 1536px;" height="770px";>
+    </div>
+      <div class="nav-bar">
+        <ul class="flx shde">
+          <li class="logo">clickr</li>
+          <li>
+            <form action="post" class="search" role="search">
+              <input type="search" placeholder="search" />
+              <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </li>
+          <li>
+            <button class="login"><a href="#">Login</a></button>
+            <button class="signup"><a href="#">SignUp</a></button>
+          </li>
+        </ul>
+      </div>
+      <div class="cont">
+        <!-- <div> -->
+        <p class="heading">Find your inspiration.</p>
+        <p class="para">
+          Join the Flickr community, home to tens of billions of photos and 2
+          million groups.
+        </p>
+        <button id="start">Start for free</button>
+      </div>
+      <!-- </div> -->
+    </div>
+    <div class="">
+      <ul class="bg flx lnks">
+        <li class="b"><a href="">About</a></li>
+        <li class="b"><a href="">jobs</a></li>
+        <li class="b"><a href="">blog</a></li>
+        <li class="b"><a href="">developer</a></li>
+        <li class="b"><a href="">guidelines</a></li>
+        <li class="b"><a href="">help</a></li>
+        <li class="b"><a href="">help forum</a></li>
+        <li class="b"><a href="">privacy</a></li>
+        <li class="b"><a href="">term</a></li>
+        <li class="b"><a href="">cookies</a></li>
+        <li class="b"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+        <li class="b"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+        <li class="b"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+      </ul>
+    </div>
+    <div></div>
+  </body>
+</html>

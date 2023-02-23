@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  /* background-image: url(https://images.unsplash.com/photo-1526666923127-b2970f64b422?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80); */
+  height: 750px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* width: auto;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+/* @keyframes example {
+  0% {
+    background-image: url(https://source.unsplash.com/user/0kronos5/likes/1);
+  }
+  25% {
+    background-image: url(https://source.unsplash.com/user/0kronos5/likes/2);
+  }
+  50% {
+    background-image: url(https://source.unsplash.com/user/0kronos5/likes/3);
+  }
+  75% {
+    background-image: url(https://source.unsplash.com/user/0kronos5/likes/4);
+  }
+  100% {
+    background-image: url(https://source.unsplash.com/user/0kronos5/likes/5);
+  }
+} */
+.flx {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin: 0 15%; */
+}
+.logo {
+  font-size: 25px;
+  color: white;
+}
+.shde {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 60px;
+}
+.bg {
+  background-color: black;
+  height: 40px;
+}
+.cont {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  text-align: center;
+  color: white;
+  font-size: 75px;
+}
+.para {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin: 25px;
+  padding: 5px;
+}
+.lnks a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+.login {
+  background-color: transparent;
+  border: none;
+}
+.login a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 25px;
+}
+.signup {
+  border: none;
+}
+.signup a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+.search input {
+  width: 950px;
+  height: 45px;
+  border-radius: 10px;
+}
+.search button {
+  font-size: 14px;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 18px;
+}
+#start {
+  font-size: 30px;
+  padding: 11px;
+  border: none;
+  border-radius: 10px;
+}
+ul {
+  list-style: none;
+  padding: 5px;
+  /* margin: 0 5px; */
+}
+.bg-img {
+  color: #999999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+.bg-img img{
+  width: "1523px";
+  height: "770px" 
+}
